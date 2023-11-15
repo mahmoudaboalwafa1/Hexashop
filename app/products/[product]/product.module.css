@@ -1,0 +1,46 @@
+.container_dark {
+  color: var(--color-secondary);
+}
+
+.container_light {
+  color: var(--color-dark);
+}
+
+.title {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerImage {
+  height: 200px;
+  position: relative;
+  display: flex;
+}
+
+.img {
+  width: 100%;
+}
+
+.category {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.category_dark {
+  color: var(--color-secondary);
+}
+
+.category_light {
+  color: var(--color-dark);
+}
+
+.description {
+  columns: 2;
+  text-align: center;
+}

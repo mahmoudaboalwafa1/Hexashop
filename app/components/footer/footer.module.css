@@ -1,0 +1,10 @@
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.social_container {
+  display: flex;
+  gap: 10px;
+}
